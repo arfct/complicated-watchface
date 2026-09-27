@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-feature android:name="android.hardware.type.watch" />
+
+    <application
+        android:label="@string/watch_face_name"
+        android:icon="@drawable/preview"
+        android:hasCode="false">
+
+        <!-- Format 5 (Wear OS 7, API 37) for auto-sized complication text.
+             minSdk must match this, or Play offers the face to watches whose
+             runtime cannot render it. -->
+        <property
+            android:name="com.google.wear.watchface.format.version"
+            android:value="5" />
+
+        <meta-data
+            android:name="com.google.android.wearable.standalone"
+            android:value="true" />
+    </application>
+</manifest>
