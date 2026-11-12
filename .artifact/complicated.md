@@ -1,6 +1,7 @@
 ---
 title: Complicated
 date: 2026-09
+status: wip
 category: product
 tags:
   - wear-os
@@ -15,8 +16,7 @@ media:
   - src: perimeter.png
     caption: Perimeter 5 on an emulator with its five divisions unset; the one at the bottom is the temperature, left empty because the emulator has no weather data
     alt: A round black watch face with 7:31 at the top between two grey dots, curved white capitals reading THU, NOV 12, 60% and THU around the rim with a gap at the bottom and grey dots between the divisions, and 310 above the word Steps in the middle
-unconfirmed:
-  - date
+unconfirmed: [date, status]
 ---
 
 A single setting with nine options places the clock on Complicated, a Wear OS watch face in which one complication fills the screen. Six of the options put a digital or an analog clock at the top, the center or the bottom, small at either end and large at the center, where the complication's content is split above and below it. The other three, Perimeter 4, 5 and 6, run curved capitals around the rim, with the time at the top and the rest of the rim divided into that many text complications. A division left unset shows the day, the date, the temperature or the battery level.
