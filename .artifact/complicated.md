@@ -12,13 +12,16 @@ media:
   - src: battery.png
     caption: The face's own preview, a battery complication with 9:14 at the top, the level of 60 in the middle and a ring at the bezel
     alt: A round black watch face with the time 9:14 in white at the top, a battery icon above the number 60 in the middle, and a white ring around the edge that is grey for part of its left side
+  - src: perimeter.png
+    caption: Perimeter 5 on an emulator with its five divisions unset; the one at the bottom is the temperature, left empty because the emulator has no weather data
+    alt: A round black watch face with 7:31 at the top between two grey dots, curved white capitals reading THU, NOV 12, 60% and THU around the rim with a gap at the bottom and grey dots between the divisions, and 310 above the word Steps in the middle
 unconfirmed:
   - date
 ---
 
 A single setting with nine options places the clock on Complicated, a Wear OS watch face in which one complication fills the screen. Six of the options put a digital or an analog clock at the top, the center or the bottom, small at either end and large at the center, where the complication's content is split above and below it. The other three, Perimeter 4, 5 and 6, run curved capitals around the rim, with the time at the top and the rest of the rim divided into that many text complications. A division left unset shows the day, the date, the temperature or the battery level.
 
-Behind the clock, a photo covers the whole screen, with a scrim where the clock sits. A ranged value such as a battery level is drawn as a ring at the bezel, with its icon, text and title in the space the clock leaves free. All of it stays on screen in ambient mode, where text and gauges are drawn unchanged and a photo dims to a quarter, which still lights well past the 15% of pixels in Google Play's guidance; the repository records that as a deliberate choice.
+Behind the clock, a photo covers the whole screen, with a scrim where the clock sits. A ranged value such as a battery level is drawn as a ring at the bezel, with its icon, text and title in the space the clock leaves free. All of it stays on screen in ambient mode, where the complication's text and gauges are drawn unchanged and a photo dims to a quarter, which still lights well past the 15% of pixels in Google Play's guidance; the repository records that as a deliberate choice.
 
 Complicated is at version 0.1.0 and needs Wear OS 7 or newer. It is built from the repository and is not on Google Play.
 
