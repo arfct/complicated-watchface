@@ -2,7 +2,7 @@
 title: Complicated
 date: 2026-09
 status: wip
-category: product
+category: device
 tags:
   - wear-os
   - watchface
